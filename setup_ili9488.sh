@@ -42,7 +42,7 @@ apt install -y cmake git build-essential nano
 echo "Downloading and configuring fbcp-ili9341..."
 cd ~
 if [ ! -d "fbcp-ili9341" ]; then
-    git clone https://github.com/juj/fbcp-ili9341.git
+    https://github.com/TanRai/fbcp-ili9341.git
 fi
 cd fbcp-ili9341
 mkdir -p build
